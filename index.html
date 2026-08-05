@@ -1,0 +1,1017 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Этапы сделки — памятка покупателю</title>
+<meta name="description" content="Пошаговая памятка покупателю: 8 этапов сделки — эскроу ДОМ.РФ, ипотека, материнский капитал, паркинг. Александр Цыбульский, АН «Департамент недвижимости».">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Этапы сделки: пошаговая памятка">
+<meta property="og:description" content="Весь путь от согласования договора до зарегистрированных документов — восемь шагов.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%94%91</text></svg>">
+<style>*{margin:0;padding:0;box-sizing:border-box}</style>
+</head>
+<body>
+
+<style>
+  /* ─── Токены ─────────────────────────────────────────── */
+
+  :root {
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+            "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+
+    --ground: #F5F5F7;
+    --paper: #FFFFFF;
+    --ink: #1D1D1F;
+    --ink-soft: #6E6E73;
+    --ink-faint: #86868B;
+    --sep: #D2D2D7;
+    --quiet: #F0F0F2;
+
+    --blue: #0071E3;
+    --blue-wash: #EAF3FD;
+    --green: #248A3D;
+    --green-solid: #34C759;
+    --green-wash: #EAF7EE;
+    --red: #C4271B;
+    --red-wash: #FDEDEC;
+
+    --card-shadow: 0 4px 16px rgba(0, 0, 0, .06);
+    --float-shadow: 0 1px 1px rgba(0, 0, 0, .04), 0 8px 28px rgba(0, 0, 0, .10);
+    --glass: rgba(255, 255, 255, .72);
+
+    --rail: 62px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #000000;
+      --paper: #1C1C1E;
+      --ink: #F5F5F7;
+      --ink-soft: #98989D;
+      --ink-faint: #8E8E93;
+      --sep: #38383A;
+      --quiet: #2C2C2E;
+      --blue: #0A84FF;
+      --blue-wash: #10243B;
+      --green: #30D158;
+      --green-solid: #30D158;
+      --green-wash: #102A18;
+      --red: #FF453A;
+      --red-wash: #2E1512;
+      --card-shadow: none;
+      --float-shadow: 0 8px 28px rgba(0, 0, 0, .6);
+      --glass: rgba(28, 28, 30, .74);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #000000;
+    --paper: #1C1C1E;
+    --ink: #F5F5F7;
+    --ink-soft: #98989D;
+    --ink-faint: #8E8E93;
+    --sep: #38383A;
+    --quiet: #2C2C2E;
+    --blue: #0A84FF;
+    --blue-wash: #10243B;
+    --green: #30D158;
+    --green-solid: #30D158;
+    --green-wash: #102A18;
+    --red: #FF453A;
+    --red-wash: #2E1512;
+    --card-shadow: none;
+    --float-shadow: 0 8px 28px rgba(0, 0, 0, .6);
+    --glass: rgba(28, 28, 30, .74);
+  }
+
+  :root[data-theme="light"] {
+    --ground: #F5F5F7;
+    --paper: #FFFFFF;
+    --ink: #1D1D1F;
+    --ink-soft: #6E6E73;
+    --ink-faint: #86868B;
+    --sep: #D2D2D7;
+    --quiet: #F0F0F2;
+    --blue: #0071E3;
+    --blue-wash: #EAF3FD;
+    --green: #248A3D;
+    --green-solid: #34C759;
+    --green-wash: #EAF7EE;
+    --red: #C4271B;
+    --red-wash: #FDEDEC;
+    --card-shadow: 0 4px 16px rgba(0, 0, 0, .06);
+    --float-shadow: 0 1px 1px rgba(0, 0, 0, .04), 0 8px 28px rgba(0, 0, 0, .10);
+    --glass: rgba(255, 255, 255, .72);
+  }
+
+  /* ─── Основа ─────────────────────────────────────────── */
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.47;
+    letter-spacing: -.016em;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 22px 96px;
+  }
+
+  /* ─── Шапка ──────────────────────────────────────────── */
+
+  .masthead {
+    padding: 72px 0 26px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .who-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .who-brand .name {
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+  }
+
+  .who-brand .org {
+    font-size: 15px;
+    color: var(--ink-faint);
+    letter-spacing: -.01em;
+  }
+
+  .masthead h1 {
+    margin: 0;
+    font-size: clamp(34px, 7vw, 52px);
+    line-height: 1.05;
+    letter-spacing: -.032em;
+    font-weight: 700;
+    text-wrap: balance;
+  }
+
+  .lede {
+    margin: 0;
+    max-width: 46ch;
+    font-size: 19px;
+    line-height: 1.42;
+    letter-spacing: -.018em;
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  .tags span {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -.008em;
+    color: var(--ink-soft);
+    background: var(--quiet);
+    border-radius: 980px;
+    padding: 6px 14px;
+  }
+
+  /* ─── Плавающая панель «Сейчас» ──────────────────────── */
+
+  .now-dock {
+    position: sticky;
+    top: 12px;
+    z-index: 20;
+    margin-top: 10px;
+  }
+
+  .now-bar {
+    appearance: none;
+    font: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    background: var(--glass);
+    -webkit-backdrop-filter: saturate(180%) blur(22px);
+    backdrop-filter: saturate(180%) blur(22px);
+    border: 1px solid var(--sep);
+    border-radius: 18px;
+    box-shadow: var(--float-shadow);
+    padding: 16px 20px;
+    display: grid;
+    gap: 9px;
+    transition: transform .2s ease;
+  }
+
+  .now-bar:active { transform: scale(.994); }
+  .now-bar:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+
+  .now-kicker {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: -.006em;
+    color: var(--blue);
+  }
+
+  .now-title {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: -.022em;
+    line-height: 1.2;
+  }
+
+  .now-ask {
+    font-size: 16px;
+    color: var(--ink-soft);
+    letter-spacing: -.014em;
+  }
+
+  .meter {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 3px;
+  }
+
+  .track {
+    flex: 1;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--quiet);
+    overflow: hidden;
+  }
+
+  .track { box-shadow: inset 0 0 0 .5px var(--sep); }
+
+  .fill {
+    display: block;
+    height: 100%;
+    width: 0;
+    border-radius: 3px;
+    background: var(--green-solid);
+    transition: width .4s cubic-bezier(.4, 0, .2, 1);
+  }
+
+  .tally {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink-faint);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  /* ─── Список шагов ───────────────────────────────────── */
+
+  .sheet {
+    margin-top: 16px;
+    background: var(--paper);
+    border-radius: 18px;
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+  }
+
+  .step + .step::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--sep);
+    margin-left: var(--rail);
+  }
+
+  .step > summary {
+    display: grid;
+    grid-template-columns: var(--rail) 1fr 20px;
+    align-items: start;
+    padding: 16px 20px 16px 0;
+    cursor: pointer;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .step > summary::-webkit-details-marker { display: none; }
+  .step > summary:focus-visible { outline: 3px solid var(--blue); outline-offset: -3px; border-radius: 8px; }
+  .step > summary:hover .st-title { color: var(--blue); }
+
+  .pin {
+    justify-self: center;
+    width: 28px;
+    height: 28px;
+    margin-top: 1px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--quiet);
+    color: var(--ink-soft);
+    font-size: 15px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    transition: background .25s ease, color .25s ease;
+  }
+
+  .st-title {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.021em;
+    line-height: 1.28;
+    text-wrap: balance;
+    transition: color .18s ease;
+  }
+
+  .ask {
+    display: block;
+    margin-top: 3px;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: -.012em;
+    color: var(--ink-soft);
+  }
+
+  .ask b {
+    font-weight: 600;
+    color: var(--blue);
+  }
+
+  .chev {
+    align-self: center;
+    justify-self: center;
+    width: 9px;
+    height: 9px;
+    border-right: 2px solid var(--ink-faint);
+    border-bottom: 2px solid var(--ink-faint);
+    border-radius: 0 0 2px 0;
+    transform: rotate(45deg) translate(-2px, -2px);
+    transition: transform .25s cubic-bezier(.4, 0, .2, 1);
+  }
+
+  .step[open] .chev { transform: rotate(225deg) translate(-2px, -2px); }
+
+  .step.done .pin {
+    background: var(--green-solid);
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+
+  .step.done .pin span { display: none; }
+  .step.done .pin::after { content: "✓"; }
+  .step.done .st-title { color: var(--ink-faint); }
+  .step.done .ask { display: none; }
+
+  .step.current .pin { background: var(--blue); color: #FFFFFF; }
+
+  /* ─── Тело шага ──────────────────────────────────────── */
+
+  .body {
+    padding: 0 22px 22px var(--rail);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 62ch;
+  }
+
+  .step[open] .body { animation: reveal .26s cubic-bezier(.4, 0, .2, 1) both; }
+
+  @keyframes reveal {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: none; }
+  }
+
+  .body p { margin: 0; }
+
+  .body ul {
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .body li::marker { color: var(--ink-faint); }
+
+  .sub {
+    margin-top: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -.021em;
+  }
+
+  /* ─── Врезки ─────────────────────────────────────────── */
+
+  .note {
+    align-self: stretch;
+    background: var(--quiet);
+    border-radius: 14px;
+    padding: 14px 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 16px;
+    letter-spacing: -.014em;
+  }
+
+  .note > b {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -.008em;
+    color: var(--ink-soft);
+  }
+
+  .note p { margin: 0; }
+
+  .note.you { background: var(--blue-wash); }
+  .note.you > b { color: var(--blue); }
+
+  .note.stop { background: var(--red-wash); }
+  .note.stop > b { color: var(--red); }
+
+  .note.cost { background: var(--green-wash); }
+  .note.cost > b { color: var(--green); }
+
+  /* ─── Сроки ──────────────────────────────────────────── */
+
+  .clock {
+    align-self: stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 10px;
+    margin: 0;
+  }
+
+  .clock div {
+    background: var(--quiet);
+    border-radius: 14px;
+    padding: 14px 16px;
+  }
+
+  .clock dt {
+    font-size: 14px;
+    color: var(--ink-faint);
+    letter-spacing: -.01em;
+    margin-bottom: 2px;
+  }
+
+  .clock dd {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: -.021em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ─── Кнопка отметки ─────────────────────────────────── */
+
+  .mark {
+    appearance: none;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -.014em;
+    color: #FFFFFF;
+    background: var(--blue);
+    border: 0;
+    border-radius: 980px;
+    padding: 11px 22px;
+    margin-top: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    transition: opacity .18s ease, background .2s ease, color .2s ease;
+  }
+
+  .mark:hover { opacity: .86; }
+  .mark:active { transform: scale(.985); }
+  .mark:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+
+  .mark .tick { display: none; font-size: 15px; line-height: 1; }
+
+  .step.done .mark {
+    background: var(--green-wash);
+    color: var(--green);
+  }
+
+  .step.done .mark .tick { display: block; }
+
+  /* ─── Низ страницы ───────────────────────────────────── */
+
+  .tools {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .reset {
+    appearance: none;
+    font: inherit;
+    font-size: 15px;
+    letter-spacing: -.012em;
+    color: var(--blue);
+    background: none;
+    border: 0;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .reset:hover { opacity: .7; }
+  .reset:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+
+  .contact {
+    margin-top: 30px;
+    background: var(--paper);
+    border-radius: 18px;
+    box-shadow: var(--card-shadow);
+    padding: 26px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .contact > b {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--blue);
+    letter-spacing: -.008em;
+  }
+
+  .contact .who {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -.024em;
+  }
+
+  .contact .org { font-size: 16px; color: var(--ink-faint); }
+
+  .contact .tip {
+    font-size: 15px;
+    color: var(--ink-faint);
+    max-width: 44ch;
+    margin: 5px 0 0;
+    line-height: 1.45;
+  }
+
+  /* ─── Кнопки связи ───────────────────────────────────── */
+
+  .reach {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+  .reach a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -.016em;
+    text-decoration: none;
+    border-radius: 980px;
+    padding: 12px 24px;
+    transition: opacity .18s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .reach a:hover { opacity: .82; }
+  .reach a:active { transform: scale(.985); }
+  .reach a:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+
+  .reach .call {
+    background: var(--blue);
+    color: #FFFFFF;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .reach .app {
+    background: var(--quiet);
+    color: var(--ink);
+    padding: 12px 22px;
+  }
+
+  .reach svg {
+    width: 21px;
+    height: 21px;
+    flex: none;
+  }
+
+  .reach .tg svg { color: #29A5D9; }
+
+  /* ─── Адаптив ────────────────────────────────────────── */
+
+  @media (max-width: 600px) {
+    :root { --rail: 50px; }
+    body { font-size: 16px; }
+    .wrap { padding: 0 16px 72px; }
+    .masthead { padding-top: 48px; }
+    .lede { font-size: 17px; }
+    .now-bar { padding: 14px 16px; border-radius: 16px; }
+    .now-title { font-size: 19px; }
+    .step > summary { padding-right: 16px; }
+    .st-title { font-size: 17px; }
+    .body { padding-left: 18px; padding-right: 16px; }
+    .mark { width: 100%; justify-content: center; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, .step[open] .body { animation: none !important; transition: none !important; }
+  }
+
+  @media print {
+    body {
+      background: #fff;
+      font-size: 11pt;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .now-dock, .mark, .reset, .chev { display: none !important; }
+    .sheet, .contact { box-shadow: none; border: 1px solid #ddd; }
+    .step { break-inside: avoid; }
+    .wrap { max-width: none; padding: 0; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="who-brand">
+      <span class="name">Александр Цыбульский</span>
+      <span class="org">АН «Департамент недвижимости»</span>
+    </div>
+    <h1>Этапы сделки: пошаговая памятка</h1>
+    <p class="lede">Весь путь от согласования договора до зарегистрированных документов — восемь шагов. Прочитайте заранее, чтобы знать, что происходит на каждом этапе и что потребуется лично от вас.</p>
+    <div class="tags">
+      <span>Эскроу ДОМ.РФ</span>
+      <span>Ипотека</span>
+      <span>Материнский капитал</span>
+      <span>Паркинг / кладовая</span>
+    </div>
+  </header>
+
+  <div class="now-dock">
+    <button class="now-bar" type="button" id="nowBar">
+      <span class="now-kicker" id="nowKicker">Сейчас · шаг 1</span>
+      <span class="now-title" id="nowTitle">Согласование договора долевого участия</span>
+      <span class="now-ask" id="nowAsk">Прочитать договор и проверить в нём свои данные</span>
+      <span class="meter">
+        <span class="track"><span class="fill" id="fill"></span></span>
+        <span class="tally" role="status" aria-live="polite"><b id="count">0</b> из 8</span>
+      </span>
+    </button>
+  </div>
+
+  <main class="sheet" id="sheet">
+
+    <details class="step">
+      <summary>
+        <span class="pin"><span>1</span></span>
+        <span>
+          <span class="st-title">Согласование договора долевого участия</span>
+          <span class="ask"><b>От вас:</b> прочитать договор и проверить в нём свои данные</span>
+        </span>
+        <span class="chev"></span>
+      </summary>
+      <div class="body">
+        <p>Юрист направит вам договор долевого участия — чтобы вы спокойно изучили его до сделки.</p>
+        <div class="note you">
+          <b>Проверьте внимательно</b>
+          <p>ФИО и паспортные данные, номер квартиры, площадь, стоимость и срок передачи ключей. Исправить ошибку сейчас намного проще, чем после регистрации.</p>
+        </div>
+        <button class="mark" type="button"><span class="tick">✓</span>Отметить шаг выполненным</button>
+      </div>
+    </details>
+
+    <details class="step">
+      <summary>
+        <span class="pin"><span>2</span></span>
+        <span>
+          <span class="st-title">Открытие эскроу-счёта</span>
+          <span class="ask"><b>От вас:</b> скан паспорта, сделанный на сканере или МФУ</span>
+        </span>
+        <span class="chev"></span>
+      </summary>
+      <div class="body">
+        <p>Эскроу-счёт — специальный счёт в банке, на котором ваши деньги хранятся до сдачи дома. Застройщик получит их только после ввода объекта в эксплуатацию, поэтому оплата защищена.</p>
+        <p>Когда дата сделки назначена, юрист резервирует эскроу-счёт в банке ДОМ.РФ на имя основного покупателя. Порядок открытия подробно объяснит менеджер по сопровождению сделки.</p>
+        <div class="note you">
+          <b>От вас</b>
+          <p>Скан паспорта, сделанный на сканере или МФУ. Фотографию с телефона банк не примет.</p>
+        </div>
+        <div class="note">
+          <b>Паркинг и кладовая</b>
+          <p>На каждый объект открывается отдельный эскроу-счёт. Если вы покупаете паркинг или кладовую, эту процедуру нужно пройти и по ним.</p>
+        </div>
+        <div class="note stop">
+          <b>Категорически запрещено</b>
+          <p>Не вносите деньги на эскроу-счёт до регистрации договора в Росреестре. Средства, поступившие раньше срока, не будут зачтены в счёт оплаты, и сделка остановится.</p>
+        </div>
+        <button class="mark" type="button"><span class="tick">✓</span>Отметить шаг выполненным</button>
+      </div>
+    </details>
+
+    <details class="step">
+      <summary>
+        <span class="pin"><span>3</span></span>
+        <span>
+          <span class="st-title">Выпуск электронной подписи</span>
+          <span class="ask"><b>От вас:</b> выпустить подпись — через Sign.me или Госключ</span>
+        </span>
+        <span class="chev"></span>
+      </summary>
+      <div class="body">
+        <p>Договор подписывается дистанционно, поэтому вам понадобится электронная подпись. Доступны два варианта — менеджер подскажет, какой удобнее в вашем случае.</p>
+
+        <div class="sub">Вариант 1 — Sign.me</div>
+        <p>Менеджер пришлёт заявление на выпуск электронной подписи.</p>
+        <div class="note you">
+          <b>От вас</b>
+          <p>Распечатать заявление, подписать и отправить скан менеджеру. Оригинал передать в офис. Если вы находитесь в одном городе с офисом, заявление можно подписать на месте.</p>
+          <p>Затем установить приложение для активации подписи — подробную памятку пришлёт менеджер.</p>
+        </div>
+
+        <div class="sub">Вариант 2 — Госключ</div>
+        <p>Чтобы выпустить подпись в приложении «Госключ», нужно пройти идентификацию одним из двух способов:</p>
+        <ul>
+          <li><b>По загранпаспорту нового образца.</b> Понадобится действующий биометрический загранпаспорт сроком на 10 лет и смартфон с модулем NFC для считывания чипа.</li>
+          <li><b>Через Единую биометрическую систему.</b> Биометрия — лицо и голос — должна быть сдана заранее в банке или МФЦ.</li>
+        </ul>
+        <div class="note stop">
+          <b>Важно</b>
+          <p>Биометрия, записанная самостоятельно через мобильное приложение, для выпуска подписи не подходит. Нужна регистрация именно в отделении банка или в МФЦ.</p>
+        </div>
+        <button class="mark" type="button"><span class="tick">✓</span>Отметить шаг выполненным</button>
+      </div>
+    </details>
+
+    <details class="step">
+      <summary>
+        <span class="pin"><span>4</span></span>
+        <span>
+          <span class="st-title">Подписание кредитного договора</span>
+          <span class="ask"><b>От вас:</b> разместить первоначальный взнос на счёте заёмщика</span>
+        </span>
+        <span class="chev"></span>
+      </summary>
+      <div class="body">
+        <p>Банк согласовывает объект недвижимости и назначает дату сделки, предварительно согласовав её с вами и с застройщиком.</p>
+        <div class="note you">
+          <b>От вас</b>
+          <p>Разместить первоначальный взнос на расчётном счёте основного заёмщика — в том банке, который выдаёт ипотеку. Сделать это нужно накануне сделки или в день сделки.</p>
+        </div>
+
+        <div class="sub">Сделка в офисе банка</div>
+        <p>В назначенные дату и время вы приезжаете в отделение банка и подписываете документы лично.</p>
+
+        <div class="sub">Сделка онлайн</div>
+        <p>Кредитный договор можно подписать дистанционно, но заранее в банке нужно пройти идентификацию и открыть текущий счёт.</p>
+        <div class="note stop">
+          <b>Обратите внимание</b>
+          <p>Порядок онлайн-подписания в каждом банке свой. Уточните требования непосредственно в вашем банке.</p>
+        </div>
+
+        <p>После подписания кредитной документации и выдачи кредита работа с банком завершена. Договор с застройщиком подписывается отдельно и дистанционно — в приложении.</p>
+        <button class="mark" type="button"><span class="tick">✓</span>Отметить шаг выполненным</button>
+      </div>
+    </details>
+
+    <details class="step">
+      <summary>
+        <span class="pin"><span>5</span></span>
+        <span>
+          <span class="st-title">Подписание ДДУ по квартире</span>
+          <span class="ask"><b>От вас:</b> подписать пакет документов электронной подписью</span>
+        </span>
+        <span class="chev"></span>
+      </summary>
+      <div class="body">
+        <p>Когда итоговый договор готов, менеджер направит вам пакет документов на подписание электронной подписью.</p>
+        <p>После вас документы подписывает представитель застройщика и направляет их на регистрацию в Росреестр.</p>
+        <div class="note cost">
+          <b>Кто за что платит</b>
+          <p>Электронную регистрацию и государственную пошлину оплачивает застройщик. С вашей стороны оплачиваются расходы по сделке в банке: аккредитив или сервис безопасных расчётов, страхование и другие банковские услуги.</p>
+        </div>
+        <button class="mark" type="button"><span class="tick">✓</span>Отметить шаг выполненным</button>
+      </div>
+    </details>
+
+    <details class="step">
+      <summary>
+        <span class="pin"><span>6</span></span>
+        <span>
+          <span class="st-title">Подписание ДДУ по паркингу или кладовой</span>
+          <span class="ask"><b>От вас:</b> подписать отдельный договор на паркинг или кладовую</span>
+        </span>
+        <span class="chev"></span>
+      </summary>
+      <div class="body">
+        <p>После подписания договора по квартире вам направят отдельный договор на паркинг или кладовую.</p>
+        <p>Порядок точно такой же: вы подписываете электронной подписью, затем документы подписывает застройщик и направляет их в Росреестр. Расходы на регистрацию также несёт застройщик.</p>
+        <button class="mark" type="button"><span class="tick">✓</span>Отметить шаг выполненным</button>
+      </div>
+    </details>
+
+    <details class="step">
+      <summary>
+        <span class="pin"><span>7</span></span>
+        <span>
+          <span class="st-title">Завершение регистрации и перевод денег</span>
+          <span class="ask"><b>От вас:</b> сохранить зарегистрированные документы из письма</span>
+        </span>
+        <span class="chev"></span>
+      </summary>
+      <div class="body">
+        <p>После регистрации все документы придут на вашу электронную почту.</p>
+        <div class="note you">
+          <b>Сохраните документы</b>
+          <p>Это правоустанавливающие документы на вашу недвижимость. Сохраните письмо и сделайте резервную копию файлов.</p>
+        </div>
+        <div class="note cost">
+          <b>Перевод на эскроу по квартире</b>
+          <p>Менеджер по сопровождению сделки направит в банк зарегистрированные документы для раскрытия аккредитива или сервиса безопасных расчётов. Банк проверит документы и переведёт деньги на эскроу-счёт.</p>
+        </div>
+        <div class="note cost">
+          <b>Оплата паркинга или кладовой</b>
+          <p>По паркингу и кладовой оплату на эскроу-счёт нужно внести отдельно. Как именно это сделать — подробно объяснит менеджер.</p>
+        </div>
+        <button class="mark" type="button"><span class="tick">✓</span>Отметить шаг выполненным</button>
+      </div>
+    </details>
+
+    <details class="step">
+      <summary>
+        <span class="pin"><span>8</span></span>
+        <span>
+          <span class="st-title">Распоряжение материнским капиталом</span>
+          <span class="ask"><b>От вас:</b> подать заявление в течение 5 дней после сделки</span>
+        </span>
+        <span class="chev"></span>
+      </summary>
+      <div class="body">
+        <p>В первоначальном взносе используется материнский капитал, поэтому остаётся последний шаг — и он полностью на вашей стороне.</p>
+        <div class="note you">
+          <b>От вас</b>
+          <p>В течение 5 дней после сделки подать заявление о распоряжении материнским капиталом — через Госуслуги, либо лично в МФЦ или в отделении Социального фонда России.</p>
+        </div>
+        <dl class="clock">
+          <div>
+            <dt>Рассмотрение заявления</dt>
+            <dd>до 10 рабочих дней</dd>
+          </div>
+          <div>
+            <dt>Перечисление средств</dt>
+            <dd>до 5 рабочих дней</dd>
+          </div>
+        </dl>
+        <button class="mark" type="button"><span class="tick">✓</span>Отметить шаг выполненным</button>
+      </div>
+    </details>
+
+  </main>
+
+  <div class="tools">
+    <button class="reset" type="button" id="reset">Снять все отметки</button>
+  </div>
+
+  <section class="contact">
+    <b>Остались вопросы</b>
+    <span class="who">Александр Цыбульский</span>
+    <span class="org">АН «Департамент недвижимости»</span>
+    <div class="reach">
+      <a class="call" href="tel:+79923075667">+7 992 307-56-67</a>
+      <a class="app tg" href="https://t.me/al_deptmn" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+        Telegram
+      </a>
+      <a class="app" href="https://max.ru/u/f9LHodD0cOKdibTIR6hypir_PrtTTRqRmJsj8aYKz4V_bMVEmB5I0nP-Uuk" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <defs>
+            <linearGradient id="maxGrad" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#0F7BFF"/>
+              <stop offset=".45" stop-color="#5A46F0"/>
+              <stop offset="1" stop-color="#B531DF"/>
+            </linearGradient>
+          </defs>
+          <circle cx="12" cy="12" r="12" fill="url(#maxGrad)"/>
+          <path fill="#FFFFFF" fill-rule="evenodd" d="M12 5.1a6.6 6.6 0 0 1 4.9 11.03 6.6 6.6 0 0 1-8.62.93l-2.62 1.35a.72.72 0 0 1-1-.9l1.1-2.79A6.6 6.6 0 0 1 12 5.1Zm0 3.75a3.15 3.15 0 1 0 0 6.3 3.15 3.15 0 0 0 0-6.3Z"/>
+        </svg>
+        MAX
+      </a>
+    </div>
+    <p class="tip">Если что-то непонятно или сроки сдвигаются — свяжитесь со мной сразу. Это быстрее, чем разбираться самостоятельно.</p>
+  </section>
+
+</div>
+
+<script>
+  (function () {
+    var KEY = "deal-steps-v1";
+    var steps = Array.prototype.slice.call(document.querySelectorAll(".step"));
+    var fill = document.getElementById("fill");
+    var count = document.getElementById("count");
+    var bar = document.getElementById("nowBar");
+    var kicker = document.getElementById("nowKicker");
+    var title = document.getElementById("nowTitle");
+    var ask = document.getElementById("nowAsk");
+
+    function save() {
+      try {
+        localStorage.setItem(KEY, JSON.stringify(steps.map(function (s) {
+          return s.classList.contains("done");
+        })));
+      } catch (e) { /* приватный режим — прогресс просто не сохранится */ }
+    }
+
+    function load() {
+      try {
+        var saved = JSON.parse(localStorage.getItem(KEY) || "null");
+        if (!Array.isArray(saved)) return;
+        steps.forEach(function (s, i) { if (saved[i]) s.classList.add("done"); });
+      } catch (e) { /* повреждённые данные игнорируем */ }
+    }
+
+    function render() {
+      var done = 0;
+      var current = null;
+
+      steps.forEach(function (s) {
+        var isDone = s.classList.contains("done");
+        if (isDone) done++;
+        else if (!current) current = s;
+
+        s.classList.remove("current");
+
+        var btn = s.querySelector(".mark");
+        btn.lastChild.nodeValue = isDone ? "Шаг выполнен" : "Отметить шаг выполненным";
+        btn.setAttribute("aria-pressed", isDone ? "true" : "false");
+      });
+
+      count.textContent = done;
+      fill.style.width = (done / steps.length * 100) + "%";
+
+      if (current) {
+        current.classList.add("current");
+        kicker.textContent = "Сейчас · шаг " + (steps.indexOf(current) + 1);
+        title.textContent = current.querySelector(".st-title").textContent;
+        var task = current.querySelector(".ask").textContent.replace(/^От вас:\s*/, "");
+        ask.textContent = task.charAt(0).toUpperCase() + task.slice(1);
+      } else {
+        kicker.textContent = "Готово";
+        title.textContent = "Все восемь шагов пройдены";
+        ask.textContent = "Сохраните зарегистрированные документы — они понадобятся при приёмке квартиры.";
+      }
+    }
+
+    steps.forEach(function (s) {
+      s.querySelector(".mark").addEventListener("click", function () {
+        s.classList.toggle("done");
+        save();
+        render();
+        if (s.classList.contains("done")) {
+          s.open = false;
+          var next = steps[steps.indexOf(s) + 1];
+          if (next && !next.classList.contains("done")) next.open = true;
+        }
+      });
+    });
+
+    bar.addEventListener("click", function () {
+      var target = document.querySelector(".step.current") || steps[steps.length - 1];
+      target.open = true;
+      target.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+
+    document.getElementById("reset").addEventListener("click", function () {
+      steps.forEach(function (s) { s.classList.remove("done"); });
+      save();
+      render();
+    });
+
+    window.addEventListener("beforeprint", function () {
+      steps.forEach(function (s) { s.open = true; });
+    });
+
+    load();
+    render();
+  })();
+</script>
+</body>
+</html>
